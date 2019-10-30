@@ -56,28 +56,28 @@
 
 # print("Enter a number:")
 # input_range = int(input())
-#
-# print("Enter a number:")
-# target = int(input())
-#
-# if target % 3 == 0 and target % 5 == 0:
-#     print("FizzBuzz")
-# elif target % 3 == 0:
-#     print("Fizz")
-# elif target % 5 == 0:
-#     print("Buzz")
-# else:
-#     print(target)
 
 print("Enter a number:")
-input_range = int(input())
+target = int(input())
 
-for num in range(1, input_range):
-    if num % 3 == 0 and num % 5 == 0:
-        print("FizzBuzz")
-    elif num % 3 == 0:
-        print("Fizz")
-    elif num % 5 == 0:
-        print("Buzz")
-    else:
-        print(num)
+if target % 3 == 0 and target % 5 == 0:
+    print("FizzBuzz")
+elif target % 3 == 0:
+    print("Fizz")
+elif target % 5 == 0:
+    print("Buzz")
+else:
+    print(target)
+
+# print("Enter a number:")
+# input_range = int(input())
+#
+# for num in range(1, input_range):
+#     if num % 3 == 0 and num % 5 == 0:
+#         print("FizzBuzz")
+#     elif num % 3 == 0:
+#         print("Fizz")
+#     elif num % 5 == 0:
+#         print("Buzz")
+#     else:
+#         print(num)
