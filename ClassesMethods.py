@@ -40,32 +40,59 @@
 
 # name = [Dog1.name, Dog2.name, Dog3.name]
 
-# print("Enter a number:")
-# number = int(input())
-#
-# def fizzbuzz(number):
-#     n = 1
-#     while n <= number:
-#         if n % 3 != 0 and n % 5 != 0:
-#             print(n)
-#         elif n % 3 == 0 and n % 5 == 0:
-#             print("fizzbuzz")
-#         elif n % 3 == 0:
-#             print("fizz")
-#         elif n % 5 == 0:
-#             print("buzz")
-#         n = n + 1
-#     return number
-#
-# print(fizzbuzz(number))
+
 
 # print("What year is it?")
 # year = int(input())
+#
+# def leap(num):
+#     for m in range (1,10000000000)
 #
 # if year % 4 == 0:
 #     print(year, "is a leap year!")
 # else:
 #     print(year, "is not a leap year!")
 
-list1 = ['abc', 'xyz', 'aba', '1221']
 
+# print("Pick a number:")
+# Number = int(input())
+#
+# def fizzbuzz(num):
+#     for m in range(1, num+1):
+#         if m == 0:
+#             print(l)
+#         elif m % 3 == 0 and m % 5 == 0:
+#             print("FizzBuzz")
+#         elif m % 5 == 0:
+#             print("Fizz")
+#         elif m % 3 == 0:
+#             print("Buzz")
+#         else:
+#             print(m)
+#
+# fizzbuzz(Number)
+
+# print("What year would you like to check?")
+# year = int(input())
+#
+# def leap():
+#     if year % 4 != 0:
+#         print("It is not a leap year!")
+#     elif year % 100 != 0:
+#         print("It is a leap year!")
+#     elif year % 400 != 0:
+#         print("It is a common year!")
+#     else:
+#         print("It is a leap year!")
+# leap()
+
+# BELOW CODE DOESN'T WORK THE WAY IT SHOULD AND I DON'T KNOW WHY
+
+# list1 = ['abc', 'xyz', 'aba', '1221']
+#
+# def firstLast(list1):
+#     count = 0
+#     for m in list1:
+#         if m[0] == m[-1]:
+#             count += 1
+#     return count
