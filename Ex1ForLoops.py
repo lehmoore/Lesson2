@@ -30,13 +30,13 @@
 
 # List for and if
 
-# list_data = [1, 2, 3, 4, 5]
+list_data = [1, 2, 3, 4, 5]
 
-# for num in list_data:
-#     if num == 3:
-#         print("I found three")
-#     elif num > 3:
-#         print("gone too far")
-#     else:
-#         print("too soon")
+for num in list_data:
+    if num == 3:
+        print("I found three")
+    elif num > 3:
+        print("gone too far")
+    else:
+        print("too soon")
 

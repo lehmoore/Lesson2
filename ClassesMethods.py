@@ -54,23 +54,7 @@
 #     print(year, "is not a leap year!")
 
 
-# print("Pick a number:")
-# Number = int(input())
-#
-# def fizzbuzz(num):
-#     for m in range(1, num+1):
-#         if m == 0:
-#             print(l)
-#         elif m % 3 == 0 and m % 5 == 0:
-#             print("FizzBuzz")
-#         elif m % 5 == 0:
-#             print("Fizz")
-#         elif m % 3 == 0:
-#             print("Buzz")
-#         else:
-#             print(m)
-#
-# fizzbuzz(Number)
+
 
 # print("What year would you like to check?")
 # year = int(input())
